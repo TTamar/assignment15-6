@@ -9,6 +9,11 @@ a{
 	text-decoration: none;
 }
 
+
+body {
+	background-color: #F7F7F7;
+}
+
 .whole-page{
 	width: 1440px;
 	/*height: 899.5px;*/
@@ -63,6 +68,79 @@ header nav{
 	position: absolute;
 	bottom: 45px;
 	left: 180px;
+}
+
+.info_container {
+	max-width: 1259px;
+	margin: 0 auto;
+	padding: 43px 90px 120px;
+	box-sizing: border-box;
+}
+
+.info_tags {
+	margin-bottom: 65px;
+
+}
+
+.info_tag {
+	font-family: Arial;
+	font-size: 11px;
+	color: #262626;
+	margin-right: 30px;
+
+}
+
+.info_tag_blue {
+
+	font-family: "Brandon Grotesque";
+	font-size: 12px;
+	color: #FFFFFF;
+	padding: 8px 16px;
+	background-color: #0865DE;
+	display: inline-block;
+}
+
+.info_title {
+	font-family: "tisa sans";
+	font-size: 32px;
+	color: #262626;
+	margin-bottom: 72px;
+	max-width: 616px;
+}
+
+.info_desc {
+	font-family: "tisa sans";
+	font-size: 25px;
+	color: #434343;
+	margin-bottom: 64px;
+	max-width: 1016px;
+
+}
+
+.info_bottom {
+
+}
+
+.info_bottom_text {
+	font-family: "Brandon Grotesque";
+	font-size: 14px;
+	color: #959595;
+}
+
+.info_bottom_year {
+	font-family: Arial;
+	font-size: 18px;
+	color: #959595;
+	margin: 0 90px;
+}
+
+.info_bottom_link {
+	font-family: Arial;
+	font-size: 18px;
+	color: #959595;
+	text-decoration: underline;
+	
+
 }
 
 main{
