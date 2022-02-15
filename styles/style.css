@@ -15,7 +15,7 @@ body {
 }
 
 .whole-page{
-	width: 1440px;
+	max-width: 1440px;
 	/*height: 899.5px;*/
 }
 header{
@@ -107,20 +107,20 @@ header img{
 }
 
 .info_title {
-	font-family: "tisa sans";
+	font-family: "Tisa Sans Pro";
 	font-size: 32px;
+	font-weight: normal;
 	color: #262626;
 	margin-bottom: 72px;
 	max-width: 616px;
 }
 
 .info_desc {
-	font-family: "tisa sans";
+	font-family: "Tisa Sans Pro";
 	font-size: 25px;
 	color: #434343;
 	margin-bottom: 64px;
 	max-width: 1016px;
-
 }
 
 .info_bottom {
@@ -145,61 +145,56 @@ header img{
 	font-size: 18px;
 	color: #959595;
 	text-decoration: underline;
-	
-
 }
 .info_container2{
-	width: 100%;
-	background-color: #F7F7F7;
+	max-width: 1260px;
+    margin: 0 auto;
+    padding: 90px 0;
+    box-sizing: border-box;
+	background-color: #fff;
 }
 .whitebox1 {
 	background-color: #FFFFFF;
-	max-width: 1260px;
-	height: 372px;
-	margin: 90px auto;
-	margin-top: 0;
 }
-.innerbox1{
-	width: 800px;
-	height: 372px;
-	padding-left: 90px;
-	display: inline-block;
-}
-.innerbox1 p{
-	font-family: 'Tisa Sans Pro';
-	font-size: 18px;
-	line-height: 33.3px;
-	width: 640px;
-	height: 126px;
-	margin-top: 30px;
-}
+
 .whitebox1 h2{
 	font-family: 'Brandon Grotesque';
 	font-weight: bold;
 	font-size: 25px;
-	line-height: 30px;
 	letter-spacing: 5px;
 	text-transform: uppercase;
-	padding-top: 90px;
+	margin-bottom: 30px;
 }
-.innerbox2{
-	width: 300px;
-	height: 372px;
+
+.innerbox1{
+	width: 835px;
 	display: inline-block;
-	margin-top: 0;
+	padding: 0 90px;
+	box-sizing: border-box;
+}
+.innerbox1 p{
+	font-family: 'Tisa Sans Pro';
+	font-size: 18px;
+	line-height: 33px;
+}
+
+
+.innerbox2{
+	width: 419px;
+	padding: 0 90px;
+	box-sizing: border-box;
+	display: inline-block;
 }
 .innerbox2 p{
 	font-family: 'Tisa Sans Pro';
 	font-size: 18px;
-	line-height: 33.3px;
-	width: 216px;
-	height: 126px;
-	margin-top: 30px;
+	line-height: 33px;
+}
+
+.info_container3 {
+	max-width: 1260px;
+
 }
 .whitebox2{
-	background-color: #FFFFFF;
-	margin-top: 30px;
-	max-width: 1260px;
-	margin: 90px auto;
-	height: 438px;
+ 
 }
