@@ -178,7 +178,6 @@ header img{
 	line-height: 33px;
 }
 
-
 .innerbox2{
 	width: 419px;
 	padding: 0 90px;
@@ -193,8 +192,80 @@ header img{
 
 .info_container3 {
 	max-width: 1260px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	margin-top: 30px;
+	padding: 90px 0;
+	box-sizing: border-box;
+}
+
+.innerbox3 {
+	background-color: #FFFFFF;
+	width: 835px;
+	padding: 0 90px;
+	box-sizing: border-box;
+	display: inline-block;
+	
+}
+
+.innerbox3_title {
+	font-family: "Brandon Grotesque";
+	font-size: 25px;
+	color: #262626;
+	font-weight: normal;
+	margin-bottom: 33px;
+}
+
+.innerbox3_items {
+	font-family: Arial;
+	font-size: 11px;
+	color: #000000;
+	margin-right: 13px;
+}
+.innerbox3_item {
+	font-family: "Brandon Grotesque";
+	font-size: 12px;
+	color: #000000;
+	margin-right: 14px;
+	padding: 8px 15px;
+	box-shadow: 0px 2px 4px #00000021
+}
+ 
+.innerbox3_text {
+	font-family: 'Tisa Sans Pro';
+	font-size: 18px;
+	color: #434343;
+	width: 641px;
+	margin-top: 69px;
+}
+
+.innerbox4 {
+	width: 395px;
+	padding: 0 90px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.innerbox4_title {
+	font-family: "Brandon Grotesque";
+	font-size: 25px;
+	color: #262626;
+	margin-bottom: 38px;
+}
+
+.innerbox4_list {
 
 }
-.whitebox2{
- 
+
+.innerbox4_item {
+	display: inline-block;
+}
+
+.people_img {
+	width: 33px;
+	height: 33px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-right: 12px;
+	margin-bottom: 12px;
 }
