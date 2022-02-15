@@ -16,7 +16,7 @@ a{
 header{
 	font-family: 'Brandon Grotesque';
 	font-weight: bold;
-	background-color: #002D69;
+/*	background-color: #002D69;*/
 	width: 1440px;
 	top: 28px;
 	height: 18px;
@@ -25,7 +25,7 @@ header{
 	z-index: 30;
 }
 header a{
-	color: #FFFFFF;
+	color: #4aa1d3a8;
 	font-size: 12px;
 	line-height: 18px;
 }
@@ -39,11 +39,8 @@ header nav{
 	padding-left: 800px;
 	padding-right: 127px;
 }
-<<<<<<< Updated upstream
-
-=======
-main{
-	background-color: #F7F7F7;
+.gray-background{
+	background-color:#0865DE;
 }
 .text-container{
 	padding-left: 90px;
@@ -64,4 +61,3 @@ main{
 	letter-spacing: 5px;
 	text-transform: uppercase;
 }
->>>>>>> Stashed changes
