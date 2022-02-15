@@ -8,3 +8,33 @@ ul{
 a{
 	text-decoration: none;
 }
+
+.whole-page{
+	width: 1440px;
+	/*height: 899.5px;*/
+}
+header{
+	font-family: 'Brandon Grotesque';
+	font-weight: bold;
+	background-color: #002D69;
+	width: 1440px;;
+	height: 74px;
+	position: fixed;
+	z-index: 30;
+}
+header a{
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height: 18px;
+}
+header li{
+	display: inline-block;
+	text-transform: uppercase;
+	padding-top: 28px;
+	margin-left: 59px;
+}
+header nav{
+	padding-left: 800px;
+	padding-right: 127px;
+}
+
