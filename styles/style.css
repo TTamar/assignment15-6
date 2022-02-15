@@ -259,8 +259,12 @@ header img{
 
 .innerbox4_item {
 	display: inline-block;
+	position: relative;
+	
 }
-
+.innerbox4_item:hover  .tooltip{
+	display: block;
+}
 .people_img {
 	width: 33px;
 	height: 33px;
@@ -268,4 +272,36 @@ header img{
 	object-fit: cover;
 	margin-right: 12px;
 	margin-bottom: 12px;
+}
+
+.tooltip {
+	display: none;
+	position: absolute;
+	z-index: 3;
+	width: 182px;
+	background-color: #0865DE;
+	padding: 15px;
+	border-radius: 10px;
+	
+	
+}
+
+.tooltip_title {
+	font-family: "Brandon Grotesque";
+	font-size: 14px;
+	color: #FFFFFF;
+
+}
+
+.tooltip_s {
+	font-family: Arial;
+	font-size: 10px;
+	color: #FFFFFF;
+
+}
+
+.tooltip_text {
+	font-family: 'Tisa Sans Pro';
+	font-size: 12px;
+	color: #FFFFFF;
 }
