@@ -9,6 +9,7 @@
 }
 
 @font-face {
+<<<<<<< Updated upstream
     font-family: 'Arial';
     src: url('../fonts/Ruda-Regular.woff2') format('woff2'),
         url('../fonts/Ruda-Regular.woff') format('woff')
@@ -17,3 +18,14 @@
     font-style: normal;
     font-display: swap;
 }
+=======
+    font-family: 'Tisa Sans Pro';
+    src: url('../fonts/TisaSansPro-Regular.woff2') format('woff2'),
+        url('../fonts/TisaSansPro-Regular.woff') format('woff'),
+        url('../fonts/TisaSansPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+>>>>>>> Stashed changes

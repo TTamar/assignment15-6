@@ -41,17 +41,23 @@ header li{
 	margin-left: 59px;
 }
 header nav{
-	padding-left: 800px;
+	padding-left: 700px;
 	padding-right: 127px;
+	display: inline-block;
 }
-
+header img{
+	width: 27px;
+	height: 27px;
+	padding-left: 27px;
+	display: inline-block;
+}
 .bruxelles_container {
 	max-width: 1440px;
 	position: relative;
+	z-index: 10;
 }
 
 .bruxelles_image_wr {
-
 }
 
 .bruxelles_image {
@@ -68,8 +74,8 @@ header nav{
 	position: absolute;
 	bottom: 45px;
 	left: 180px;
+	z-index: 10;
 }
-
 .info_container {
 	max-width: 1259px;
 	margin: 0 auto;
@@ -142,31 +148,58 @@ header nav{
 	
 
 }
-
-main{
+.info_container2{
+	width: 100%;
 	background-color: #F7F7F7;
 }
-.gray-background{
-	background-color:#0865DE;
-}
-.text-container{
-	padding-left: 90px;
-	padding-right: 90px;
-}
-.whitebox {
+.whitebox1 {
 	background-color: #FFFFFF;
-	padding-top: 1560px;
+	max-width: 1260px;
+	height: 372px;
+	margin: 90px auto;
+	margin-top: 0;
 }
-.whitebox div{
+.innerbox1{
+	width: 800px;
+	height: 372px;
+	padding-left: 90px;
 	display: inline-block;
 }
-.whitebox h2{
+.innerbox1 p{
+	font-family: 'Tisa Sans Pro';
+	font-size: 18px;
+	line-height: 33.3px;
+	width: 640px;
+	height: 126px;
+	margin-top: 30px;
+}
+.whitebox1 h2{
 	font-family: 'Brandon Grotesque';
 	font-weight: bold;
 	font-size: 25px;
 	line-height: 30px;
 	letter-spacing: 5px;
 	text-transform: uppercase;
+	padding-top: 90px;
 }
-
-
+.innerbox2{
+	width: 300px;
+	height: 372px;
+	display: inline-block;
+	margin-top: 0;
+}
+.innerbox2 p{
+	font-family: 'Tisa Sans Pro';
+	font-size: 18px;
+	line-height: 33.3px;
+	width: 216px;
+	height: 126px;
+	margin-top: 30px;
+}
+.whitebox2{
+	background-color: #FFFFFF;
+	margin-top: 30px;
+	max-width: 1260px;
+	margin: 90px auto;
+	height: 438px;
+}
