@@ -38,3 +38,27 @@ header nav{
 	padding-right: 127px;
 }
 
+.bruxelles_container {
+	max-width: 1440px;
+	position: relative;
+}
+
+.bruxelles_image_wr {
+
+}
+
+.bruxelles_image {
+	display: block;
+	width: 100%;
+}
+
+.bruxelles_title {
+	font-family: 'Brandon Grotesque';
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 9px;
+	color: #FFFFFF;
+	position: absolute;
+	bottom: 45px;
+	left: 180px;
+}
